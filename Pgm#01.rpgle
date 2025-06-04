@@ -1,12 +1,15 @@
 New program
-dcl-s variable01 packed(2:0) inz;
-dcl-s variable02 packed(2:0) inz;
-dcl-s variable03 packed(2:0) inz;
+dcl-s addend01 packed(2:0) inz;
+dcl-s addend02 packed(2:0) inz;
+dcl-s total packed(3:0) inz;
+dcl-s minuend packed(2:0) inz;
+dcl-s subtrahend packed(2:0) inz;
+dcl-s difference packed(2:0) inz;
 
-variable03 = variable01 + variable02;
-dsply variable03;
+total = addend01 + addent02;
+dsply total;
 
-variable03 = variable02 - variable03;
-dsply variable03;
+difference = minuend - subtrahend;
+dsply difference;
 
 *inLr = *on;
